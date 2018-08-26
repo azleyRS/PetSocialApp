@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_posts"
+        android:enabled="true"
+        android:icon="@drawable/ic_posts"
+        android:title="@string/text_posts"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_messages"
+        android:enabled="true"
+        android:icon="@drawable/ic_messages"
+        android:title="@string/text_messages"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_details"
+        android:enabled="true"
+        android:icon="@drawable/ic_details"
+        android:title="@string/text_details"
+        app:showAsAction="ifRoom"
+        />
+</menu>

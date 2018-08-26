@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "636159360084",
+    "firebase_url": "https://petsocialapp-f074c.firebaseio.com",
+    "project_id": "petsocialapp-f074c",
+    "storage_bucket": "petsocialapp-f074c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636159360084:android:27a7d6fb58d487f7",
+        "android_client_info": {
+          "package_name": "com.example.rus.petsocialapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636159360084-m5id7uuof36dup043i02qo1gjam7f2c5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rus.petsocialapp",
+            "certificate_hash": "4b80dc7f72964c71318945289285040bd592bc35"
+          }
+        },
+        {
+          "client_id": "636159360084-l9b6ta0cta8k3au2m7u10opoggovqq7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4Anj6Xl9W4sGlcPtrzr_g__4BXqCgrOg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636159360084-l9b6ta0cta8k3au2m7u10opoggovqq7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PetSocialApp</string>
+    <string name="text_posts">Posts</string>
+    <string name="text_messages">Friends</string>
+    <string name="text_details">Details</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.view.fragment.details.DetailsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/settings_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account Settings"/>
+        <Button
+            android:id="@+id/user_profile_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"/>
+        <Button
+            android:id="@+id/find_friends_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find Friends"/>
+        <Button
+            android:id="@+id/friends_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Friends"/>
+    </LinearLayout>
+
+</FrameLayout>

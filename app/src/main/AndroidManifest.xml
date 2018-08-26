@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rus.petsocialapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".presentation.view.activity.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".presentation.view.activity.signUp.SignUpActivity" />
+        <activity android:name=".presentation.view.activity.profile.ProfileActivity" />
+        <activity android:name=".presentation.view.activity.home.HomeActivity" />
+        <activity
+            android:name=".presentation.view.activity.post.PostActivity"
+            android:parentActivityName=".presentation.view.activity.home.HomeActivity" />
+        <activity android:name=".presentation.view.activity.comment.CommentActivity" />
+        <activity android:name=".presentation.view.activity.postEdit.PostEditActivity" />
+        <activity
+            android:name=".presentation.view.activity.settings.SettingsActivity"
+            android:parentActivityName=".presentation.view.activity.home.HomeActivity" />
+        <activity android:name=".presentation.view.activity.userProfile.UserProfileActivity" />
+        <activity android:name=".presentation.view.activity.findFriends.FindsFriendsActivity" />
+        <activity android:name=".presentation.view.activity.personProfile.PersonProfileActivity" />
+        <activity android:name=".presentation.view.activity.friends.FriendsActivity" />
+        <activity android:name=".presentation.view.activity.chat.ChatActivity"
+            android:parentActivityName=".presentation.view.activity.home.HomeActivity"></activity>
+    </application>
+
+</manifest>
